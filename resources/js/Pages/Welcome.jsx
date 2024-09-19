@@ -62,15 +62,15 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
 
                         <main className="mt-6">
                             <div className="flex flex-col items-center">
-                                <h1>Welcome to my first Laravel project</h1>
-                                <h2>Register and start chirping with me!</h2>
+                                <h1 className="text-white">Welcome to my first Laravel project</h1>
+                                <h2 className="text-white">Register and start chirping with me!</h2>
                             </div>
                         </main>
 
                         <footer className="py-16 text-center text-sm text-black dark:text-white/70">
                             <div className="flex flex-col items-center">
                                 <a href="https://github.com/brieucdegoussencourt/GetFlix" target="_blank" rel="noopener noreferrer">
-                                    <img src="/github-icon-red.png" width="100" alt="github icon" className="mb-3" />
+                                    <img src="/github-icon-red.png" width="75" alt="github icon" className="mb-3" />
                                 </a>
                                 <p>brieucdegoussencourt / BeCode / September 2024</p>
                             </div>
