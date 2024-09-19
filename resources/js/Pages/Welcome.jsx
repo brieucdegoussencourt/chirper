@@ -22,7 +22,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                         <header className="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
                             <div className="flex lg:justify-center lg:col-start-2">
                                 <svg
-                                    className="h-12 w-auto text-white lg:h-16 lg:text-[#FF2D20]"
+                                    className="h-12 w-auto text-white"
                                     viewBox="0 0 62 65"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -61,18 +61,21 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                         </header>
 
                         <main className="mt-6">
-                            <div className="grid gap-6 lg:grid-cols-2 lg:gap-8">
+                            <div className="flex flex-col items-center">
                                 <h1>Welcome to my first Laravel project</h1>
                                 <h2>Register and start chirping with me!</h2>
                             </div>
                         </main>
 
                         <footer className="py-16 text-center text-sm text-black dark:text-white/70">
-                            <a href="https://github.com/brieucdegoussencourt/GetFlix" target="_blank" rel="noopener noreferrer">
-                                <img src="../github-icon-red.png" width="100" alt="github icon" />
-                            </a>
-                            <p className="mt-3">brieucdegoussencourt / BeCode / July 2024</p>
+                            <div className="flex flex-col items-center">
+                                <a href="https://github.com/brieucdegoussencourt/GetFlix" target="_blank" rel="noopener noreferrer">
+                                    <img src="../github-icon-red.png" width="100" alt="github icon" className="mb-3" />
+                                </a>
+                                <p>brieucdegoussencourt / BeCode / July 2024</p>
+                            </div>
                         </footer>
+
                     </div>
                 </div>
             </div>
