@@ -18,7 +18,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                     src="https://laravel.com/assets/img/welcome/background.svg"
                 /> */}
                 <div className="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
-                    <div className="relative w-full max-w-2xl px-12 lg:max-w-7xl">
+                    <div className="relative w-full max-w-2xl px-12">
                         <header className="grid grid-cols-2 items-center gap-2 py-10">
                             <div className="flex justify-start col-span-1">
                                 <svg
