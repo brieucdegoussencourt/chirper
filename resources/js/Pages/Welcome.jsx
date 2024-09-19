@@ -68,9 +68,10 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                         </main>
 
                         <footer className="py-16 text-center text-sm text-black dark:text-white/70">
-                        <a href="https://github.com/brieucdegoussencourt/GetFlix" target="_blank"><img
-                        src="../github-icon-red.png" width="100" alt="github icon"></a>
-                        <p class="mt-3">brieucdegoussencourt / BeCode / July 2024</p>
+                            <a href="https://github.com/brieucdegoussencourt/GetFlix" target="_blank" rel="noopener noreferrer">
+                                <img src="../github-icon-red.png" width="100" alt="github icon" />
+                            </a>
+                            <p className="mt-3">brieucdegoussencourt / BeCode / July 2024</p>
                         </footer>
                     </div>
                 </div>
