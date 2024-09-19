@@ -69,7 +69,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
 
                         <footer className="py-16 text-center text-sm text-black dark:text-white/70">
                             <div className="flex flex-col items-center">
-                                <a href="https://github.com/brieucdegoussencourt/GetFlix" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/brieucdegoussencourt/chirper" target="_blank" rel="noopener noreferrer">
                                     <img src="/github-icon-red.png" width="75" alt="github icon" className="mb-3" />
                                 </a>
                                 <p>brieucdegoussencourt / BeCode / September 2024</p>
