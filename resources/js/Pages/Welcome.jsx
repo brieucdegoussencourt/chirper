@@ -19,8 +19,8 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                 /> */}
                 <div className="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
                     <div className="relative w-full max-w-2xl px-9 lg:max-w-7xl">
-                        <header className="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-2">
-                            <div className="flex lg:justify-center lg:col-start-2">
+                        <header className="grid grid-cols-2 items-center gap-2 py-10">
+                            <div className="flex justify-center col-span-1">
                                 <svg
                                     className="h-12 w-auto text-white"
                                     viewBox="0 0 62 65"
@@ -33,7 +33,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                     />
                                 </svg>
                             </div>
-                            <nav className="-mx-3 flex flex-1 justify-end">
+                            <nav className="flex justify-end col-span-1">
                                 {auth.user ? (
                                     <Link
                                         href={route('dashboard')}
