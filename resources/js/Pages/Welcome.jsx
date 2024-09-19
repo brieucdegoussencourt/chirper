@@ -19,7 +19,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                 /> */}
                 <div className="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
                     <div className="relative w-full max-w-2xl px-6 lg:max-w-7xl">
-                        <header className="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
+                        <header className="grid grid-cols-2 items-center gap-2 py-10">
                             <div className="flex lg:justify-center lg:col-start-2">
                                 <svg
                                     className="h-12 w-auto text-white"
@@ -70,9 +70,9 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                         <footer className="py-16 text-center text-sm text-black dark:text-white/70">
                             <div className="flex flex-col items-center">
                                 <a href="https://github.com/brieucdegoussencourt/GetFlix" target="_blank" rel="noopener noreferrer">
-                                    <img src="../github-icon-red.png" width="100" alt="github icon" className="mb-3" />
+                                    <img src="/github-icon-red.png" width="100" alt="github icon" className="mb-3" />
                                 </a>
-                                <p>brieucdegoussencourt / BeCode / July 2024</p>
+                                <p>brieucdegoussencourt / BeCode / September 2024</p>
                             </div>
                         </footer>
 
